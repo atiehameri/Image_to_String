@@ -52,5 +52,5 @@ list = {"Last Name": surname, "Name": name, "Passport Number": pass_number,
         'Date of Birth':dateofbirth, "Place of Birth": placebirth}
 table = pd.DataFrame(list)
 
-print(table.head())
-
+name = "/Users/macbook/Documents/PhD/Image_read_to_String/data.xlsx"
+table.to_excel("data.xlsx")
